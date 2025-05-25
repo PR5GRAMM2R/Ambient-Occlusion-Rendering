@@ -7,7 +7,7 @@ Ambient Occlusion Rendering with Uniform Sampling using the Custom Vulkan API Fr
 3. Press F5 to start the program ( Sampling Number is 50 )
 4. You can move the camera via keyboard input.
 
-    W -> Forward |     S -> Backward
+    W -> Forward | S -> Backward
    
     A -> Left | D -> Right
    
