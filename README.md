@@ -8,7 +8,9 @@ Ambient Occlusion Rendering with Uniform Sampling using the Custom Vulkan API Fr
 4. You can move the camera via keyboard input.
 
     W -> Forward | S -> Backward
+   
     A -> Left | D -> Right
+   
     E -> Upward | Q -> Downward
 
 ### Demonstration ( Used RTX 5070 TI )
