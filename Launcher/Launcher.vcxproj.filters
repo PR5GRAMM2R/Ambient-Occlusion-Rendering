@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{d0f4415d-94ab-47cf-b366-c02d2181e9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{da086371-35c1-4606-bef1-cfcc90fda3a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\include\imgui\imgui.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_demo.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_draw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_tables.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_widgets.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\backends\imgui_impl_vulkan.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tiny_obj_loader.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\include\imgui\imconfig.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_internal.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imstb_rectpack.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imstb_textedit.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imstb_truetype.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\backends\imgui_impl_glfw.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\backends\imgui_impl_vulkan.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
