@@ -6,6 +6,7 @@ Ambient Occlusion Rendering with Uniform Sampling using the Custom Vulkan API Fr
 2. Click the Universe.sin file to open Visual Studio, then set Launcher as your startup project.
 3. Press F5 to start the program ( Sampling Number is 50 )
 4. You can move the camera via keyboard input.
+
     W -> Forward | S -> Backward
     A -> Left | D -> Right
     E -> Upward | Q -> Downward
